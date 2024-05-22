@@ -11,7 +11,7 @@ export function RestroCard(props){
             <h4>{restData.info.cuisines.join(", ")}</h4>
             <h4>{restData.info.avgRating}</h4>
             <h4>{restData.info.costForTwo}</h4>
-            <h4>{restData.info.sla.deliveryTime} minutes</h4>
+            <h4>{restData.info.sla.slaString}</h4>
         </div>
     );
 }
